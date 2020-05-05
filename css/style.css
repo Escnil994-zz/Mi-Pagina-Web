@@ -1,9 +1,4 @@
-html, body{
-  margin:0;
-  padding: 0;
-  font-family: Arial, Helvetica, Sans-serif
-  color: black;
-}
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -11,17 +6,7 @@ nav{
   padding: 1px;
   background-color: #437B3F;
 }
-nav div a{
-  position: relative;
-  top:-25px;
-  text-decoration: none;
-  font-family: Arial;
-  font-size: 16px;
-  color: #1A1D20;
-}
-.contact{
-  padding: 100px;
-}
+
 .logo{
   text-decoration: none;
   font-family: Times New Roman;
@@ -30,14 +15,44 @@ nav div a{
   text-shadow: 3px 3px 2px #0C0C0D;
   -webkit-text-stroke: 1px #0E0E0F;
 }
-nav div a:hover{
-  color : #283E4A;
-}
-nav img{
+
+
+nav a img{
+  color: #0C0C0D;
   padding-right: 7px;
   border-radius: 50%;
   width: 50px;
-  height: 80;
+  height: 100;
+}
+nav a{
+  color: #0E0E0F;
+}
+nav a:hover{
+  color: #5893eb;
+  text-decoration: none;
+}
+nav ul{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li{
+   float: left;
+   margin-top: 20px;
+}
+
+nav ul li a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 70px;
+}
+
+nav ul li a:hover{
+
+ color: #5db86c;
+ text-decoration: none;
 }
 /*----------------------------------------------------------*/
 h1{
@@ -58,28 +73,34 @@ iframe{
   height:300px;
 }
 
-
-p{
-  text-indent: 15px;
+footer {
+  list-style: height 25px;
+  background:#313945;
+  color:white;
+  text-align:center;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+footer ul{
+  list-style: none;
+  display: inline-block;
 }
 
-footer{
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  background-color: #96A8B2;
-  padding: 3px;
-  color: #FFFFFF;
+footer ul li{
+   float: left;
 }
 
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  font-style: italic;
-  display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+footer ul li a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 15px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+footer ul li a:hover{
+ color: #3279d6;
+ text-decoration: none;
 }
