@@ -3,7 +3,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1px;
+  padding: 0;
   background-color: #437B3F;
 }
 
@@ -19,10 +19,10 @@ nav{
 
 nav a img{
   color: #0C0C0D;
-  padding-right: 7px;
+  padding-right: 2%;
   border-radius: 50%;
-  width: 50px;
-  height: 100;
+  width: 70px;
+  height: 90px;
 }
 nav a{
   color: #0E0E0F;
@@ -46,7 +46,7 @@ nav ul li a {
    font-weight: bold;
    text-decoration: none;
    font-size: 20px;
-   padding: 70px;
+   margin-left: 5em;
 }
 
 nav ul li a:hover{
@@ -69,8 +69,8 @@ h2{
 }
 iframe{
   text-align: center;
-  width:650px;
-  height:300px;
+  width:50%;
+  height:500;
 }
 
 footer {
@@ -96,8 +96,7 @@ footer ul li a {
    font-weight: bold;
    text-decoration: none;
    font-size: 15px;
-   padding-left: 50px;
-   padding-right: 50px;
+   margin: 3em;
 }
 
 footer ul li a:hover{
